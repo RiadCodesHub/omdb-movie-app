@@ -40,7 +40,7 @@ return (
 // mobile Header Component
  const mobileHeader = () => {
     return(
-        <div className='sticky top-0 md:hidden flex w-full h-auto items-center flex-col px-10 py-10'>
+        <div className='top-0 md:hidden flex w-full h-auto items-center flex-col px-10 py-10'>
         <div className='flex items-center justify-between w-full'>
         <h1 className='text-white text-[20px] font-bold '><a href="/">Popcorn Verdict</a></h1>
          <div className='flex items-center gap-4'>
@@ -68,7 +68,7 @@ return (
 
 
   return (
-    <div className='w-full h-auto bg-[var(--primary-color)] sticky top-0 mx-auto z-100'>
+    <div className='w-full h-auto bg-[var(--primary-color)] sticky top-0 mx-auto z-50'>
         {desktopHeader()}
         {mobileHeader()}
     </div>
